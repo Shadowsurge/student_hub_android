@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_icon"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/nav_university_services"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="@string/university_services_header" />
+    <item
+        android:id="@+id/nav_mental_health"
+        android:icon="@drawable/mental_health_icon"
+        android:title="@string/mental_health_header" />
+    <item
+        android:id="@+id/nav_physical_health"
+        android:icon="@drawable/physical_health_icon"
+        android:title="@string/physical_health_header" />
+
+    <item android:title="@string/live_adverts_header">
+        <menu>
+            <item
+                android:id="@+id/nav_art"
+                android:icon="@drawable/art_icon"
+                android:title="@string/art_header" />
+            <item
+                android:id="@+id/nav_dentistry"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/dentistry_header" />
+
+            <item
+                android:id="@+id/nav_education"
+                android:icon="@drawable/education_icon"
+                android:title="@string/education_header" />
+
+            <item
+                android:id="@+id/nav_humanities"
+                android:title="@string/humanities_header"/>
+
+            <item
+                android:id="@+id/nav_life_sciences"
+                android:title="@string/life_sciences_header"/>
+
+            <item
+                android:id="@+id/nav_medicine"
+                android:icon="@drawable/medicine_icon"
+                android:title="@string/medicine_header" />
+
+            <item
+                android:id="@+id/nav_nursing"
+                android:title="@string/nursing_header"/>
+
+            <item
+                android:id="@+id/nav_science"
+                android:title="@string/science_header"/>
+
+            <item
+                android:id="@+id/nav_social_sciences"
+                android:title="@string/social_sciences_header"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/advert_manage_section_header">
+        <menu>
+            <item
+                android:id="@+id/nav_create_advert"
+                android:icon="@drawable/create"
+                android:title="@string/new_advert_header" />
+
+            <item
+                android:id="@+id/nav_manage_adverts"
+                android:title="@string/manage_advert_header"/>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

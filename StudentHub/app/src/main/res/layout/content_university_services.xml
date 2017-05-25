@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<android.support.constraint.ConstraintLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+        <!--tools:context="com.example.nathan.studenthub.presenter.UniversityServices"-->
+        <!--tools:showIn="@layout/activity_university_services">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/careersServicesButton"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:text="Careers Service"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@android:color/holo_blue_dark"-->
+            <!--android:textSize="16sp"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/castleServicesButton"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:text="CASTLE"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@android:color/holo_blue_dark"-->
+            <!--android:textSize="16sp"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/careersServicesButton" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/chaplaincyServicesButton"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:text="Chaplaincy"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@android:color/holo_blue_dark"-->
+            <!--android:textSize="16sp"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/castleServicesButton" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/counsellingServicesButton"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:text="Counselling"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@android:color/holo_blue_dark"-->
+            <!--android:textSize="16sp"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/chaplaincyServicesButton" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/disabilityServicesButton"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:elevation="0dp"-->
+            <!--android:text="Disability Services"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@android:color/holo_blue_dark"-->
+            <!--android:textSize="16sp"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/counsellingServicesButton" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/enquiryServicesButton"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:text="Enquiry Centre"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@android:color/holo_blue_dark"-->
+            <!--android:textSize="16sp"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/disabilityServicesButton" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/sportsServicesButton"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:text="Institute of Sport and Exercise"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@android:color/holo_blue_dark"-->
+            <!--android:textSize="16sp"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/enquiryServicesButton" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/stayOnCourseServicesButton"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:text="Stay On Course"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@android:color/holo_blue_dark"-->
+            <!--android:textSize="16sp"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/nightlineServicesButton" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/studentFundingButton"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:text="Student Funding"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@android:color/holo_blue_dark"-->
+            <!--android:textSize="16sp"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/stayOnCourseServicesButton" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/nightlineServicesButton"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:text="Nightline"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@android:color/holo_blue_dark"-->
+            <!--android:textSize="16sp"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/sportsServicesButton" />-->
+    <!--</android.support.constraint.ConstraintLayout>-->
+</ScrollView>
+
